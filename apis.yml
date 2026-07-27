@@ -1,4 +1,16 @@
 aid: infonesia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infonesia.png
 name: Infonesia
 description: Infonesia is a company surfaced as a portfolio company of 500-global and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-website-status:
+  probed: '2026-07-20'
+  note: Stub domain infonesia.fyi does not resolve (NXDOMAIN); sibling domains infonesia.com
+    (ad/redirect parking page) and infonesia.id (HTTP 410 / domain-for-sale parking
+    page) carry no company or API surface. No reachable developer, docs, or API presence
+    found. Company appears defunct or off the public web.
 tags:
 - Company
 apis: []
@@ -23,3 +41,8 @@ maintainers:
 common:
 - type: Website
   url: https://infonesia.fyi
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
