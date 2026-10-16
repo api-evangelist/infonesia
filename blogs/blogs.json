@@ -1,0 +1,14 @@
+{
+  "repo": "infonesia",
+  "feeds": [
+    {
+      "source": "https://infonesia.fyi/rss.xml",
+      "feed_url": "https://infonesia.fyi/rss.xml",
+      "title": "",
+      "saved": 4,
+      "method": "feed"
+    }
+  ],
+  "post_count": 4,
+  "fetched": "2026-10-10T13:15:00Z"
+}
